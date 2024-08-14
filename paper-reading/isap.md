@@ -1,6 +1,6 @@
 # iSAP
 
-### Data on the sphere
+## Data on the sphere
 
 For denoising and deconvolution, wavelets have alsodemonstrated how powerful they are for discriminating signal from noise. In this chapter, the Section 2.2 overviews the problem of pixelization on the sphere and introduces the two solutions used by MRS package: the HEALPix pixelization scheme 2.2.1 and Gauss-Legendre Sky Pixelization (GLESP) 2.2.2.The Section 2.3 introduces the spherical harmonics transform which could be considered as an extension of Fourier’s transform to the sphere. Section 2.4 is a short introduction to multiscale methods on the sphere and to their applications. These methods are fully presented in Chapter 3 and algorithm on the sphere bases on them are given in Chapter 4 for data restoration, in Chapter 5 for sparse component analysis and in Chapter 6 for blind source separation. The Chapter 7 is dedicated to statistics on the sphere which includes the detection of non-gaussianities. Sections 5.2.3 and 5.3.2 present how these new tools can help us to analyze data in two real applications, in physics and in cosmology.
 
@@ -16,3 +16,7 @@ For denoising and deconvolution, wavelets have alsodemonstrated how powerful the
 * Inpainting algo-rithms strive to interpolate through the gaps in the image relying on the available pixels, the continuation of edges, the periodicity of textures, etc.
 * To make the link between building sparse representations and inpainting, consider the eﬀect of a rectangular gap on the set of Fourier coeﬃcients of a monochromatic sinewave : because of the non-locality of the Fourier basis functions it takes a large number of coeﬃcients to account for the gap, which is known as the Gibbs eﬀect.
 * Following (Elad et al. 2005), an inpainting algorithm on the sphere is readily built from the Morphological Component Analysis on the sphere described in the previous section.
+
+```bash
+mrs-alm-inpainting -v input mask output
+```

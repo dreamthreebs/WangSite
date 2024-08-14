@@ -1,5 +1,12 @@
 # Table of contents
 
 * [bo bo bo](README.md)
-* [Snippets](snippets.md)
-* [vim](vim.md)
+
+## Coding
+
+* [Snippets](coding/snippets.md)
+* [Vim](coding/vim.md)
+
+## Paper Reading
+
+* [iSAP](paper-reading/isap.md)

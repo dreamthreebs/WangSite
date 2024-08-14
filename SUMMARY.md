@@ -1,4 +1,5 @@
 # Table of contents
 
-* [Page](README.md)
+* [bo bo bo](README.md)
 * [Snippets](snippets.md)
+* [vim](vim.md)

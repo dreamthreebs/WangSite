@@ -6,7 +6,7 @@
 
 * [Snippets](coding/snippets.md)
 * [Vim](coding/vim.md)
-* [test](coding/test.md)
+* [Test](coding/test.md)
 
 ## Paper Reading
 

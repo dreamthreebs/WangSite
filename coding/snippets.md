@@ -1,4 +1,6 @@
-# Snippets
+# snippets
+
+\[TOC]
 
 ## LLM prompt
 
@@ -70,6 +72,15 @@ ls -i submit_*.sh| awk '{print $2}' | sort -V
 ```bash
 squeue -u wangyiming25 | grep ' R ' | wc -l
 squeue -u wangyiming25 | grep ' PD ' | wc -l
+```
+
+### Cancel homework from one id to another id
+
+```bash
+for job_id in {244328..244422}
+do
+   scancel $job_id
+done
 ```
 
 ### Find numbers of pattern in one file

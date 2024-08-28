@@ -4,9 +4,9 @@
 
 ## Coding
 
-* [Snippets](coding/snippets.md)
-* [Vim](coding/vim.md)
-* [Test](coding/test.md)
+* [vim](coding/vim.md)
+* [test](coding/test.md)
+* [snippets](coding/snippets.md)
 
 ## Paper Reading
 

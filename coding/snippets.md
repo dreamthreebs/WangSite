@@ -1,7 +1,5 @@
 # snippets
 
-\[TOC]
-
 ## LLM prompt
 
 ### latex format
@@ -65,6 +63,12 @@ done
 
 ```bash
 ls -i submit_*.sh| awk '{print $2}' | sort -V
+```
+
+### Add sbatch in `do.sh`
+
+```bash
+sed -i 's/\([^ ]*\)/sbatch \1/g' do.sh
 ```
 
 ### Find how many works are running

@@ -455,6 +455,16 @@ np.where(map_variace>0,1,0)
 
 ### Utils
 
+* import from other directory
+
+```python
+from pathlib import Path
+config_dir = Path(__file__).parent.parent
+print(f'{config_dir=}')
+sys.path.insert(0, str(config_dir))
+from config import freq
+```
+
 * work flow
 
 ```bash

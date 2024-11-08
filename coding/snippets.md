@@ -152,6 +152,16 @@ rm {0..100}.npy
 !0.csv
 ```
 
+### add tag
+
+```bash
+git tag <tag_name>
+git tag <tag_name> <commit_hash>
+git tag -a <tag_name> -m "Your tag message"
+git push origin <tag_name>
+git push --tags
+```
+
 ## Python
 
 ### Algorithm
